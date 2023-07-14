@@ -1,0 +1,55 @@
+baseURL: "https://lucasmelloec.github.io"
+title: "Something Borrowed, Something Blue"
+theme: "hugo-coder"
+languageCode: "en"
+defaultcontentlanguage: "en"
+paginate: 20
+enableEmoji: true
+
+markup:
+  highlight:
+    style: "github-dark"
+
+params:
+  author: "Lucas E. C. de Mello"
+  keywords: "blog,developer"
+  avatarurl: "images/avatar.png"
+  faviconSVG: "images/favicon.svg"
+  favicon_32: "images/favicon-32x32.png"
+  favicon_16: "images/favicon-16x16.png"
+  since: 2023
+  colorScheme: "auto"
+  hidecolorschemetoggle: false
+
+  social:
+    - name: "Github"
+      icon: "fa fa-github fa-2x"
+      weight: 1
+      url: "https://github.com/lucasmelloec/"
+    - name: "Twitter"
+      icon: "fa fa-twitter fa-2x"
+      weight: 2
+      url: "https://twitter.com/chapeutyler/"
+
+taxonomies:
+  category: "categories"
+  serie: "series"
+  tag: "tags"
+
+languages:
+  en:
+    contentDir: "content/en"
+    languageCode: "en"
+    languageName: ":uk:"
+    params:
+      info: "Software and Game Developer, Leftist, Pet Owner"
+      description: "A blog to talk about things I want or need to"
+    weight: 1
+  pt-br:
+    contentDir: "content/pt"
+    languageCode: "pt-BR"
+    languageName: ":brazil:"
+    params:
+      info: "Desenvolvedor de Software e de Jogos, Esquerdista, Pai de Pet"
+      description: "Um blog para falar coisas que eu quero ou que eu preciso"
+    weight: 2
